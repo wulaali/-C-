@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string> 
+using namespace std;
+int main()
+{
+int i;
+int sum =0 ;
+while(cin>>i)
+{
+    sum+=i;
+    cout<<"data:"<<i<<endl;
+    if(cin.peek()=='\n')
+      break;
+}
+cout<<sum<<endl;
+system("pause");
+return 0;
+ 
+}
